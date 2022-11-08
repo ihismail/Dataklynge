@@ -9,8 +9,12 @@ public class Dataklynge {
         dataklynge.add(r);
     }
 
-    public void settNodeIRack(Node n){
+    public void settIRack(Node n){
         Rack t = dataklynge.getLast();
-        try {t.
-    }
+        if(t.settInnNode(n)) {
+            r = new Rack();
+            dataklynge.add(r);
+            r.settIRack(n);
+        }
+        else
 }

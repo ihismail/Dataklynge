@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02c3785-b4e0-4224-95f8-c420b1974b23" name="Changes" comment="node, rack, dataklynge classes - body and constructors">
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Dataklynge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dataklynge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -12,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -41,7 +46,7 @@
       <updated>1667908625185</updated>
       <workItem from="1667908626689" duration="2646000" />
       <workItem from="1667914613596" duration="777000" />
-      <workItem from="1667915958867" duration="1095000" />
+      <workItem from="1667915958867" duration="2549000" />
     </task>
     <task id="LOCAL−00001" summary="node, rack, dataklynge classes - body and constructors">
       <created>1667915121121</created>
@@ -49,7 +54,13 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1667915121121</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="node, rack, dataklynge classes - body and constructors">
+      <created>1667917301113</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1667917301113</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
