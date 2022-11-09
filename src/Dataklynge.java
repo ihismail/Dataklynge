@@ -1,20 +1,23 @@
 import java.util.LinkedList;
 
 public class Dataklynge {
-    LinkedList<Rack> dataklynge;
+    LinkedList<Rack> klynge;
 
     public Dataklynge() {
-        dataklynge = new LinkedList<>();
-        Rack r = new Rack();
-        dataklynge.add(r);
+        klynge = new LinkedList<>();
+        Rack forste = new Rack();
+        klynge.add(forste);
     }
 
     public void settIRack(Node n){
-        Rack t = dataklynge.getLast();
-        if(t.settInnNode(n)) {
-            r = new Rack();
-            dataklynge.add(r);
-            r.settIRack(n);
+        Rack t = klynge.getLast();
+        if(t.ledigPlass()) {
+            t.settInnNode(n);
         }
-        else
+        else {
+            Rack nyRack = new Rack();
+            klynge.add(nyRack);
+            nyRack.settInnNode(n);
+        }
+    }
 }

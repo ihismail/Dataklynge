@@ -1,6 +1,6 @@
 public class Node {
-    private int prosessorer;
-    private int minne;
+    final int prosessorer;
+    final int minne;
 
     public Node(int prosessorer, int minne) {
         this.prosessorer = prosessorer;
