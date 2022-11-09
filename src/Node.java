@@ -6,4 +6,12 @@ public class Node {
         this.prosessorer = prosessorer;
         this.minne = minne;
     }
+
+    public int getProsessorer() {
+        return prosessorer;
+    }
+
+    public boolean storNok(int m) {
+        return minne >= m;
+    }
 }

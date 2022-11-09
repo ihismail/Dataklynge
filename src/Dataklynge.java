@@ -20,4 +20,22 @@ public class Dataklynge {
             nyRack.settInnNode(n);
         }
     }
+
+    //Lag en metode antProsessorer i Dataklynge som returnerer det totale
+    //antall prosessorer i dataklyngen
+    public int antProsessorer(){
+        int ant = 0;
+        for(Rack racket: klynge) {
+            ant+= racket.getAntPros();
+        }
+        return ant;
+    }
+
+    public int noderMedNokMinne(int paakrevdMinne){
+        int teller = 0;
+        for(Rack racket: klynge) {
+            teller += racket.minneStortNok(paakrevdMinne);
+        }
+        return teller;
+    }
 }
