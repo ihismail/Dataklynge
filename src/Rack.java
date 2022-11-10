@@ -1,5 +1,5 @@
 public class Rack {
-    Node[] rack = new Node[12];
+    protected Node[] rack = new Node[12];
     private int antPros;
     private int counter;
 
