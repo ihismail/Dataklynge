@@ -1,5 +1,5 @@
 public class Rack {
-    protected Node[] rack = new Node[12];
+    Node[] rack = new Node[12];
     private int antPros;
     private int counter;
 
@@ -24,7 +24,7 @@ public class Rack {
 
     public int minneStortNok(int mm) {
         int antallStoreNok = 0;
-        for(int i = 0; i<12; i++) {
+        for(int i = 0; i<counter; i++) {
             if(rack[i].storNok(mm)) {
                 antallStoreNok++;
             }
