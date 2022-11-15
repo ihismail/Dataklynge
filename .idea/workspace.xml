@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a02c3785-b4e0-4224-95f8-c420b1974b23" name="Changes" comment="implementert del D, hovedprogram. commiter før testing.">
+      <change afterPath="$PROJECT_DIR$/src/HovedprogramReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Dataklynge.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Dataklynge.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Node.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Rack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rack.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="lowLVL-impl_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -29,29 +27,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.folding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
-}</component>
-  <component name="RunManager">
-    <configuration name="Hovedprogram" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hovedprogram" />
-      <module name="Dataklynge" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Hovedprogram" />
-      </list>
-    </recent_temporary>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -62,9 +48,7 @@
       <updated>1667908625185</updated>
       <workItem from="1667908626689" duration="2646000" />
       <workItem from="1667914613596" duration="777000" />
-      <workItem from="1667915958867" duration="2549000" />
-      <workItem from="1667986748856" duration="7102000" />
-      <workItem from="1668101270255" duration="3365000" />
+      <workItem from="1667915958867" duration="1095000" />
     </task>
     <task id="LOCAL−00001" summary="node, rack, dataklynge classes - body and constructors">
       <created>1667915121121</created>
@@ -72,31 +56,7 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1667915121121</updated>
     </task>
-    <task id="LOCAL−00002" summary="node, rack, dataklynge classes - body and constructors">
-      <created>1667917301113</created>
-      <option name="number" value="LOCAL−00002" />
-      <option name="presentableId" value="LOCAL−00002" />
-      <updated>1667917301113</updated>
-    </task>
-    <task id="LOCAL−00003" summary="implementert dataklynge-funksjonalitet på rack-nivå.&#10;endret main til hovedprogram.">
-      <created>1667991474404</created>
-      <option name="number" value="LOCAL−00003" />
-      <option name="presentableId" value="LOCAL−00003" />
-      <updated>1667991474404</updated>
-    </task>
-    <task id="LOCAL−00004" summary="implementert metodene antProsessor og noderMedNokMinne i dataklynge samt justeringer i Node og Rack">
-      <created>1667996065818</created>
-      <option name="number" value="LOCAL−00004" />
-      <option name="presentableId" value="LOCAL−00004" />
-      <updated>1667996065818</updated>
-    </task>
-    <task id="LOCAL−00005" summary="implementert del D, hovedprogram. commiter før testing.">
-      <created>1668102761336</created>
-      <option name="number" value="LOCAL−00005" />
-      <option name="presentableId" value="LOCAL−00005" />
-      <updated>1668102761336</updated>
-    </task>
-    <option name="localTasksCounter" value="6" />
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,9 +102,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="node, rack, dataklynge classes - body and constructors" />
-    <MESSAGE value="implementert dataklynge-funksjonalitet på rack-nivå.&#10;endret main til hovedprogram." />
-    <MESSAGE value="implementert metodene antProsessor og noderMedNokMinne i dataklynge samt justeringer i Node og Rack" />
-    <MESSAGE value="implementert del D, hovedprogram. commiter før testing." />
-    <option name="LAST_COMMIT_MESSAGE" value="implementert del D, hovedprogram. commiter før testing." />
+    <option name="LAST_COMMIT_MESSAGE" value="node, rack, dataklynge classes - body and constructors" />
   </component>
 </project>
